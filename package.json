@@ -1,0 +1,14 @@
+{
+  "name": "jsonresume-theme-onepageresume",
+  "version": "0.0.1",
+  "description": "OnePageResume theme for JSON Resume",
+  "author": "Nabil Bendafi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nabilbendafi/jsonresume-theme-onepageresume"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "handlebars": "^2.0.0-alpha.4"
+  }
+}
