@@ -14,7 +14,7 @@ git clone https://github.com/nabilbendafi
 npm install -g resume-cli
 ```
  - Make sure to have a proper `resume.json`
- - Render with local them
+ - Render with local theme
 ```bash
 resume serve -t .
 ```
