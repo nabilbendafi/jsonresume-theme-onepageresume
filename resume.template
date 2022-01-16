@@ -10,7 +10,7 @@
   </head>
   <body>
     <div id="page-wrap">
-      <img src="http://css-tricks.com/examples/OnePageResume/images/cthulu.png" alt="Photo of Cthulu" id="pic" />
+      <img src="{{resume.basics.picture}}" alt="{{resume.basics.name}}" id="pic" />
       <div id="contact-info" class="vcard">
         <!-- Microformats! -->
         <h1 class="fn">{{resume.basics.name}}</h1>
