@@ -15,8 +15,12 @@
         <!-- Microformats! -->
         <h1 class="fn">{{resume.basics.name}}</h1>
         <p>
+          {{#if resume.basics.phone}}
           Cell: <span class="tel">{{resume.basics.phone}}</span><br />
+          {{/if}}
+          {{#if resume.basics.email}}
           Email: <a class="email" href="mailto:{{resume.basics.email}}">{{resume.basics.email}}</a>
+          {{/if}}
         </p>
       </div>
       <div id="objective">
