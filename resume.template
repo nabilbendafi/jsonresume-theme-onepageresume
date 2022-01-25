@@ -4,6 +4,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>One Page Resume</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
     <style type="text/css">
     {{css}}
     </style>
@@ -21,6 +22,23 @@
           {{#if resume.basics.email}}
           Email: <a class="email" href="mailto:{{resume.basics.email}}">{{resume.basics.email}}</a>
           {{/if}}
+          <ul id="profiles">
+          {{#resume.basics.profiles}}
+          <li>
+            <div class="contact-item tooltip">
+              <div class="icon pull-left text-center">
+		<a href="{{url}}" target="_blank">
+		  <span class="{{iconClass}} fa-fw">
+                    <span class="tooltiptext">
+		      {{username}}
+		    </span>
+		   </span>
+		</a>
+	      </div>
+            </div>
+          </li>
+          {{/resume.basics.profiles}}
+          </ul>
         </p>
       </div>
       <div id="objective">
