@@ -20,7 +20,6 @@ dd.clear { float: none; margin: 0; height: 15px; }
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black;
 }
 
 .tooltip .tooltiptext {
