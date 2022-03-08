@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-onepageresume",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "OnePageResume theme for JSON Resume",
   "main": "index.js",
   "author": "Nabil Bendafi",
